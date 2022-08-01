@@ -1,0 +1,1 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2022/07/13 - 17:39:49.890	[31merror[0m	D:/gin-vue-admin-main/gin-vue-admin-main/server/core/server.go:48	listen tcp :8887: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

@@ -1,0 +1,3 @@
+ProjID: RNAS004
+species: rat
+PorjType: circRNA

@@ -1,0 +1,9 @@
+ gowen项目打包：go build -o test main.go
+数据库文件拷贝到linux， mysql -u root -p进入mysql命令行：source 文件名.sql
+go web项目拷贝到Linux执行：chmod 777 文件名
+linux下启动mysql：service mysqld start
+grant all privileges on *.* to 'root'@'192.168.0.202' with grant option;
+查看端口是否打开：telnet 192.168.0.45 3306
+drop user BI07@'%';
+update user set host = '%' where user ='root';
+flush privileges;

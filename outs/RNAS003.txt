@@ -1,0 +1,3 @@
+ProjID: RNAS003
+species: human
+PorjType: mRNA-seq

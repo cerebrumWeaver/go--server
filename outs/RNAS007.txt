@@ -1,0 +1,3 @@
+ProjID: RNAS007
+species: mouse
+PorjType: lncRNA
