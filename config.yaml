@@ -80,7 +80,7 @@ hua-wei-obs:
   access-key: you-access-key
   secret-key: you-secret-key
 jwt:
-  signing-key: 325d5477-edd3-4b5f-9986-94c006f459a1
+  signing-key: 41eab880-1b6f-4d16-82b8-04c3d1507dea
   expires-time: 604800
   buffer-time: 86400
   issuer: qmPlus
@@ -88,14 +88,12 @@ local:
   path: uploads/file
   store-path: uploads/file
 mysql:
-#  path: localhost
-  path: 192.168.0.133
+  path: 127.0.0.1
   port: "3306"
   config: charset=utf8mb4&parseTime=True&loc=Local
   db-name: gva
   username: root
-  password: uhy876sql
-#  password: ytfytm
+  password: ytfytm
   max-idle-conns: 10
   max-open-conns: 100
   log-mode: error
@@ -122,7 +120,7 @@ qiniu:
 redis:
   db: 0
   addr: 127.0.0.1:6379
-  password: "ytfytm"
+  password: ytfytm
 system:
   env: public
   addr: 8887

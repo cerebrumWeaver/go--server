@@ -1,6 +1,9 @@
 package utils
 
-import "gopkg.in/gomail.v2"
+import (
+	"fmt"
+	"gopkg.in/gomail.v2"
+)
 
 func SendInformation(toEmail string) string {
 	//V8Example()
@@ -9,8 +12,10 @@ func SendInformation(toEmail string) string {
 	//m.SetHeader("To", "javaandroidxml@163.com")
 	m.SetHeader("To", toEmail)
 	//m.SetAddressHeader("Cc", "204292960@qq.com", "Dan")
-	m.SetHeader("Subject", "Hello!")
-	m.SetBody("text/html", "Hello <b>Bob</b> and <i>Cora</i>!")
+	m.SetHeader("Subject", "报告查收!")
+	people := fmt.Sprintf("<b>%s</b>你好， <i>报告请在附件中查收</i>！", toEmail)
+	m.SetBody("text/html", people)
+	//m.SetBody("text/html", "Hello <b>%s</b> and <i>Cora</i>!")
 	//m.Attach("git.pdf")	// 发送附件
 
 	d := gomail.NewDialer("smtp.qq.com", 25, "204292960@qq.com", "opakqsscbwbpbjfc")

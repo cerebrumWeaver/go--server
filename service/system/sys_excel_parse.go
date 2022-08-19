@@ -84,10 +84,10 @@ func (exa *ExcelService) ParseExcel2InfoList(fileName string) ([]system.SysAnaTr
 			/*GVA_MODEL: global.GVA_MODEL{
 				ID: uint(id),
 			},*/
-			SpeciesName: row[0],
-			SampleName:  row[1],
-			ProjectType: row[2],
-			ProjectNo:   row[3],
+			//SpeciesName: row[0],
+			//SampleName:  row[1],
+			//ProjectType: row[2],
+			ProjectNo: row[3],
 		}
 		menus = append(menus, menu)
 	}

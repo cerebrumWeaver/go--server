@@ -20,6 +20,7 @@ require (
 	github.com/go-sql-driver/mysql v1.5.0
 	github.com/golang-jwt/jwt/v4 v4.3.0
 	github.com/gookit/color v1.3.1
+	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.21.8+incompatible
 	github.com/jackc/pgx/v4 v4.15.0 // indirect
 	github.com/jordan-wright/email v0.0.0-20200824153738-3f5bafa1cd84
